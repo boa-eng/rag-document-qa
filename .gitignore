@@ -1,0 +1,15 @@
+# Secrets — NEVER commit these
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Generated vector store (binary, regenerable from the PDFs)
+data/vector_store/
+notebooks/data/
+faiss_store/

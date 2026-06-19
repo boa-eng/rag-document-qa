@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/home/boa/miniconda3/envs/phase1/bin/python -c \"from langchain_community.document_loaders import TextLoader; print\\('TextLoader import: OK'\\)\")",
+      "Bash(/home/boa/miniconda3/envs/phase1/bin/pip list *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
+    ]
+  }
+}
