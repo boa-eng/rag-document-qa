@@ -1,5 +1,6 @@
 {
   "jupyter.notebookFileRoot": "${fileDirname}",
   "python-envs.defaultEnvManager": "ms-python.python:conda",
-  "python-envs.defaultPackageManager": "ms-python.python:conda"
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "git.allowForcePush": true
 }

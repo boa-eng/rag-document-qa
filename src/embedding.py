@@ -27,3 +27,4 @@ class EmbeddingPipeline:
         embeddings = self.model.encode([chunk.page_content for chunk in chunks], show_progress_bar=True)
         print(f"[INFO] Created embeddings for {len(embeddings)} chunks.")
         return embeddings
+
