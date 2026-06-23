@@ -1,0 +1,24 @@
+# keep the backend image lean — only src/ + requirements are needed at runtime
+.git
+.gitignore
+.claude/
+.env
+.env.*
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# sample data + persisted index aren't used by the API (it builds per-upload)
+data/
+faiss_store/
+
+# the frontend deploys separately (Vercel), not in this image
+crux-document-intelligence/
+
+# misc
+*.md
+notebooks/
+tests/
+package-lock.json
