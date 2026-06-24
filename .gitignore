@@ -13,3 +13,10 @@ __pycache__/
 data/vector_store/
 notebooks/data/
 faiss_store/
+
+# Claude Code local config — never commit
+.claude/
+
+# Frontend lives in its own repo — don't track here
+crux-document-intelligence/
+package-lock.json
